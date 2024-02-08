@@ -1,0 +1,19 @@
+.App {
+  background-color: #282c34;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: 100vh;
+}
+
+.AppSides {
+  display: flex;
+  flex-direction: row;
+}
+
+.AppHeader {
+  text-align: center;
+
+}

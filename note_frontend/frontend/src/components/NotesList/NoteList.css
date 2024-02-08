@@ -1,0 +1,115 @@
+.noteList {
+    width: 40vw;
+    color: #0d0416;
+}
+
+.noteListBody {
+    /* margin-top: -50px; */
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+.note {
+    background-color: rgb(138, 43, 226);
+    border-radius: 15px;
+    min-height: 150px;
+    height: 20vh;
+    min-height: 200px;
+}
+.note_body {
+    margin-top: 20px;
+    display: grid;
+}
+
+.Title {
+    margin-top: 10px;
+    margin-left: 15px;
+    background-color: rgb(161, 122, 197);
+    border-radius: 15px;
+    height: 50px;
+    width: fit-content;
+    min-width: 30%;
+    max-width: 95%;
+    display: flex;
+    align-items: center;
+}
+
+.Title > h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.NoteBody {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
+    background-color: rgb(161, 122, 197);
+    border-radius: 15px;
+    height: 60px;
+    width: 95%;
+}
+
+.NoteBody > p {
+    margin-left: 10px;
+}
+
+.note-buttons-container {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.neutral-btn {
+    padding: 10px;
+    width: fit-content;
+    min-width: 80px;
+    border: 2px solid skyblue;
+    background-color: rgb(30, 143, 188);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    transition: all 0.1s ease-in;
+  }
+  
+  .neutral-btn:hover {
+    background-color: rgb(33, 162, 213);
+  }
+  
+  .neutral-btn:active {
+    background-color: rgb(24, 103, 135);
+  }
+  
+  .neutral-btn:disabled {
+    background-color: rgb(24, 103, 135);
+    color: rgb(195, 195, 195);
+  }
+
+.delete-btn {
+    margin-left: 5px;
+    padding: 10px;
+    width: fit-content;
+    min-width: 80px;
+    border: 2px solid rgb(219, 106, 106);
+    background-color: rgb(189, 35, 35);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    transition: all 0.1s ease-in;
+  }
+  
+  .delete-btn:hover {
+    background-color: rgb(255, 0, 0)
+  }
+  
+  .delete-btn:active {
+    background-color: rgb(119, 15, 15);
+  }
+  
+  .delete-btn:disabled {
+    background-color: rgb(24, 103, 135);
+    color: rgb(195, 195, 195);
+  }

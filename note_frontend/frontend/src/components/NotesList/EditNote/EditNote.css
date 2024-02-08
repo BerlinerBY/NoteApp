@@ -1,0 +1,72 @@
+.save-btn {
+    padding: 10px;
+    width: fit-content;
+    min-width: 80px;
+    border: 2px solid rgb(135, 235, 143);
+    background-color: rgb(30, 188, 64);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: all 0.1s ease-in;
+  }
+  
+  .save-btn:hover {
+    background-color: rgb(69, 213, 33);
+  }
+  
+  .save-btn:active {
+    background-color: rgb(42, 135, 24);
+  }
+  
+  .save-btn:disabled {
+    background-color: rgb(42, 135, 24);
+    color: rgb(195, 195, 195);
+  }
+
+
+
+.close-btn {
+    padding: 10px;
+    width: fit-content;
+    min-width: 80px;
+    border: 2px solid skyblue;
+    background-color: rgb(30, 143, 188);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    transition: all 0.1s ease-in;
+  }
+  
+  .close-btn:hover {
+    background-color: rgb(33, 162, 213);
+  }
+  
+  .close-btn:active {
+    background-color: rgb(24, 103, 135);
+  }
+  
+  .close-btn:disabled {
+    background-color: rgb(24, 103, 135);
+    color: rgb(195, 195, 195);
+  }
+
+#update-note-form > input,
+#update-note-form > textarea {
+  border: none;
+  border-radius: 15px;
+  outline: none;
+}
+
+#title-update {
+    font-size: 1.3rem;
+    font-weight: 900;
+  }
+  
+#update-note-body-textarea {
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
